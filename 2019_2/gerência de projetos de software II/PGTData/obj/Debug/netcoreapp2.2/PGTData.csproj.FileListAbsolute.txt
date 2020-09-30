@@ -1,0 +1,14 @@
+C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2019_2\gerência de projetos de software II\PGTData\bin\Debug\netcoreapp2.2\PGTData.deps.json
+C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2019_2\gerência de projetos de software II\PGTData\bin\Debug\netcoreapp2.2\PGTData.runtimeconfig.json
+C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2019_2\gerência de projetos de software II\PGTData\bin\Debug\netcoreapp2.2\PGTData.runtimeconfig.dev.json
+C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2019_2\gerência de projetos de software II\PGTData\bin\Debug\netcoreapp2.2\PGTData.dll
+C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2019_2\gerência de projetos de software II\PGTData\bin\Debug\netcoreapp2.2\PGTData.pdb
+C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2019_2\gerência de projetos de software II\PGTData\obj\Debug\netcoreapp2.2\PGTData.csprojAssemblyReference.cache
+C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2019_2\gerência de projetos de software II\PGTData\obj\Debug\netcoreapp2.2\PGTData.csproj.CoreCompileInputs.cache
+C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2019_2\gerência de projetos de software II\PGTData\obj\Debug\netcoreapp2.2\PGTData.RazorAssemblyInfo.cache
+C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2019_2\gerência de projetos de software II\PGTData\obj\Debug\netcoreapp2.2\PGTData.RazorAssemblyInfo.cs
+C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2019_2\gerência de projetos de software II\PGTData\obj\Debug\netcoreapp2.2\PGTData.AssemblyInfoInputs.cache
+C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2019_2\gerência de projetos de software II\PGTData\obj\Debug\netcoreapp2.2\PGTData.AssemblyInfo.cs
+C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2019_2\gerência de projetos de software II\PGTData\obj\Debug\netcoreapp2.2\PGTData.RazorTargetAssemblyInfo.cache
+C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2019_2\gerência de projetos de software II\PGTData\obj\Debug\netcoreapp2.2\PGTData.dll
+C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2019_2\gerência de projetos de software II\PGTData\obj\Debug\netcoreapp2.2\PGTData.pdb

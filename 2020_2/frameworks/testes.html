@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div-verde{background-color: #00FF00;}
+        .div-amarela{background-color: #FFFF00;}
+        .div-vermelha{background-color: #FF0000;}
+    </style>
+</head>
+<body>
+<div id="root"\>
+<script src="https://unpkg.com/react@16.8.6/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@16.8.6/umd/react-dom.development.js"></script>
+<script>
+    let aluno = "a";
+    let nota = 4;
+    let letstyle = "";
+    if (nota < 6){
+        letstyle = "div-vermelha";
+    } else if (nota < 8){
+        letstyle = "div-amarela";
+    } else {
+        letstyle = "div-verde";
+    }
+    const div = React.createElement('div', {className: letstyle}, aluno+": "+nota);
+    ReactDOM.render(div, document.getElementById('root'));
+
+</script>
+</body>
+</html>

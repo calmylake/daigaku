@@ -1,0 +1,4 @@
+apikey - yFsCxVoNUmQtCOvr7qAggCyhCggRVhKrzYNc5tUFcEoI
+url - https://gateway.watsonplatform.net/assistant/api
+version - 2019-02-28
+id - 2320fc61-8883-4b0d-a4b4-921bc5c13d61

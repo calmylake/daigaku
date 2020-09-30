@@ -1,0 +1,18 @@
+1. (R: "c") Sobre o modelo Code and Fix, é correto afirmar:
+
+a) É necessário muito planejamento para não ter problemas no futuro.
+b) Há alguém que faz a parte de codificação e outro que faz a parte de ajustes.
+c) O desenvolvedor começa codificando, arrumando problemas que aparecem, e continua até o projeto estar completo.
+d) É o recomendado para grandes projetos que exigem a garantia de eficiência e eficácia ao mesmo tempo, por ser um método com uma ideia simples e que garante a qualidade ao cliente.
+
+2. (R: "a") Um desenvolvedor freelancer finalizou um trabalho de site ontem. Hoje ele recebeu uma ligação do cliente que percebeu um problema quando navegava pelo site com o celular. Para arrumar este problema, o desenvolvedor terá somente uma noite. Portanto, ele deve:
+a) Usar o modelo Code and Fix, por ser rápido.
+b) Usar o modelo Cascata, porque é o modelo mais conhecido.
+c) Usar o modelo de Prototipagem, para mostrar um protótipo de como irá ficar.
+d) Usar o modelo Incremental, já que precisa fazer várias versões.
+
+3. (R: "d") O modelo code and fix é mais apropriado para:
+a) Um projeto que garante entregar em uma data definida.
+b) Um grande projeto que quer criar um aplicativo para atrair novos clientes.
+c) Um jogo de mídia física.
+d) Um pequeno projeto informal que contém poucos desenvolvedores e não possui prazos muito definidos.

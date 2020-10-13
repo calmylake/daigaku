@@ -9,12 +9,17 @@ import {PageHeader, Button, Input, Space, List, Dropdown, Menu, Checkbox, Radio,
 import 'antd/dist/antd.css';
 
 function Mix(){
-  
+
   const [nome, setNome] = useState("");
+  const [nomePersistido, setNomePersistido] = useState("");
   const [titulo, setTitulo] = useState("");
   const [trabalhos, setTrabalhos] = useState([]);
   const [trabalhosDoAluno, setTrabalhosDoAluno] = useState([]);
   const [inputsAlocar, setInputsAlocar] = useState([]);
+  
+  if(sessionStorage.nomeSessao != null && sessionStorage.nomeSessao != undefined){
+    console.log(sessionStorage.nomeSessao);
+  }
 
   const criarUsuario = () => {
     const dados = {"username": nome};
@@ -22,7 +27,8 @@ function Mix(){
         if (res.status == 200) {
          console.log(res.data);
          alert('sucesso! você está logado até seu browser fechar');
-         sessionStorage.setItem("nomeSessao", nome)
+         sessionStorage.setItem("nomeSessao", nome);
+         setNomePersistido(nome);
         }
         }).catch ((err) => {
          console.log('ERRO: ', err);
@@ -114,6 +120,7 @@ function Mix(){
   }
 
   return <div id="sbody">
+    <PageHeader title={nomePersistido}/>
     <div className="sbody-component">
     <Input className="sbody-subcomponent" addonBefore="Nome do aluno:" placeholder="Informe aqui o nome completo do aluno" 
             value={nome}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import axios from 'axios';
 
@@ -17,9 +17,13 @@ function Mix(){
   const [trabalhosDoAluno, setTrabalhosDoAluno] = useState([]);
   const [inputsAlocar, setInputsAlocar] = useState([]);
   
-  if(sessionStorage.nomeSessao != null && sessionStorage.nomeSessao != undefined){
-    console.log(sessionStorage.nomeSessao);
-  }
+  useEffect(()=>{
+    if(sessionStorage.nomeSessao != null && sessionStorage.nomeSessao != undefined){
+      setNomePersistido(sessionStorage.nomeSessao);
+    }
+  });
+
+  
 
   const criarUsuario = () => {
     const dados = {"username": nome};
@@ -143,10 +147,10 @@ function Mix(){
             dataSource={trabalhos}
             renderItem={(item, index) => (<>
             <List.Item id={index}>{"Título: " + item.titulo + " || ID: " + item.id}
-            <Input addonBefore="Percentual:" placeholder="Informe o percentual completado do trabalho" onChange={(e) => {
+            <Input value={trabalhos[index].percentual} addonBefore="Percentual:" placeholder="Informe o percentual completado do trabalho" onChange={(e) => {
               console.log(e.target.value);
               console.log(index);
-              let temparray = trabalhos;
+              let temparray = [...trabalhos];
               temparray[index].percentual = e.target.value;
               setTrabalhos(temparray);}} />
             <Button onClick={() => {atualizarTrabalho(trabalhos[index].id, trabalhos[index].percentual);}}>Atualizar Percentual</Button>

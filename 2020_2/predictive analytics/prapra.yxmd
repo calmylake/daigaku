@@ -1,0 +1,332 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="522" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RYZEN2~1\AppData\Local\Temp\Engine_14612_3a0536c9c5724e6fb18fb26d067a9735_\Engine_5672_efddc84cf9f148c4853d44278dc93ff2_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>uber_analise_20181003_v2.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Distrito" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="Nome" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="display_name" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="quantidade" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="soma" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="media" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="desvpad popul" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="desvpad_amostral" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="QTLINBUS2018" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="KMLINBUS2018" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="QTPONTBUS2018" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="QTESTMETRO2018" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="RENDP2010" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="ARE1" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="POP2018" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="DENPOP2018" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="DOMP2018" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="ESTAB2016" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="EMP2016" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="PNBRAN2010" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="TEMP2010_5MIN" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="TEMP2010_30MIN" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="TEMP2010_60MIN" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="TEMP2010_120MIN" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="TEMP2010_121MIN" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="TEMP2010_0MIN" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="PDOMC2010" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="PDOMM2010" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="234" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Distrito" selected="True" />
+            <Field field="Nome" selected="True" />
+            <Field field="display_name" selected="True" />
+            <Field field="quantidade" selected="True" />
+            <Field field="soma" selected="True" />
+            <Field field="media" selected="True" />
+            <Field field="desvpad popul" selected="True" />
+            <Field field="desvpad_amostral" selected="True" />
+            <Field field="QTLINBUS2018" selected="True" />
+            <Field field="KMLINBUS2018" selected="True" />
+            <Field field="QTPONTBUS2018" selected="True" />
+            <Field field="QTESTMETRO2018" selected="True" />
+            <Field field="RENDP2010" selected="True" />
+            <Field field="ARE1" selected="True" />
+            <Field field="POP2018" selected="True" />
+            <Field field="DENPOP2018" selected="True" />
+            <Field field="DOMP2018" selected="True" />
+            <Field field="ESTAB2016" selected="True" />
+            <Field field="EMP2016" selected="True" />
+            <Field field="PNBRAN2010" selected="True" />
+            <Field field="TEMP2010_5MIN" selected="True" />
+            <Field field="TEMP2010_30MIN" selected="True" />
+            <Field field="TEMP2010_60MIN" selected="True" />
+            <Field field="TEMP2010_120MIN" selected="True" />
+            <Field field="TEMP2010_121MIN" selected="True" />
+            <Field field="TEMP2010_0MIN" selected="True" />
+            <Field field="PDOMC2010" selected="True" />
+            <Field field="PDOMM2010" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Distrito" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Int32" />
+            <Field name="Nome" size="18" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="V_String" />
+            <Field name="display_name" size="5" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="String" />
+            <Field name="quantidade" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Int32" />
+            <Field name="soma" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Int32" />
+            <Field name="media" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Int16" />
+            <Field name="desvpad popul" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Double" />
+            <Field name="desvpad_amostral" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Double" />
+            <Field name="QTLINBUS2018" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Int16" />
+            <Field name="KMLINBUS2018" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Double" />
+            <Field name="QTPONTBUS2018" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Int16" />
+            <Field name="QTESTMETRO2018" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Byte" />
+            <Field name="RENDP2010" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Double" />
+            <Field name="ARE1" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Double" />
+            <Field name="POP2018" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Int32" />
+            <Field name="DENPOP2018" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Double" />
+            <Field name="DOMP2018" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Int32" />
+            <Field name="ESTAB2016" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Int16" />
+            <Field name="EMP2016" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Int32" />
+            <Field name="PNBRAN2010" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Double" />
+            <Field name="TEMP2010_5MIN" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Double" />
+            <Field name="TEMP2010_30MIN" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Double" />
+            <Field name="TEMP2010_60MIN" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Double" />
+            <Field name="TEMP2010_120MIN" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Double" />
+            <Field name="TEMP2010_121MIN" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Double" />
+            <Field name="TEMP2010_0MIN" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Double" />
+            <Field name="PDOMC2010" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Double" />
+            <Field name="PDOMM2010" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\uber_analise_20181003_v2.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="Linear_Regression">
+        <Position x="318" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">advanced</Value>
+          <Value name="standardize_pred">True</Value>
+          <Value name="internal_cv">True</Value>
+          <Value name="display_graphs">True</Value>
+          <Value name="set_seed_internal_cv">True</Value>
+          <Value name="set_seed_external_cv">True</Value>
+          <Value name="lambda_1se">True</Value>
+          <Value name="lambda_min">False</Value>
+          <Value name="Model Name">Linear_Regression_7</Value>
+          <Value name="Y Var">media</Value>
+          <Value name="X Vars">QTLINBUS2018,KMLINBUS2018,QTPONTBUS2018,QTESTMETRO2018,RENDP2010,ARE1,POP2018,DENPOP2018,DOMP2018,ESTAB2016,EMP2016,PNBRAN2010,TEMP2010_5MIN,TEMP2010_30MIN,TEMP2010_60MIN,TEMP2010_120MIN,TEMP2010_121MIN,TEMP2010_0MIN,PDOMC2010,PDOMM2010</Value>
+          <Value name="Omit Constant">False</Value>
+          <Value name="Use Weights">False</Value>
+          <Value name="Weight Vec" />
+          <Value name="regularization">False</Value>
+          <Value name="alpha">0.5</Value>
+          <Value name="nfolds">5</Value>
+          <Value name="lambda">lambda_1se</Value>
+          <Value name="seed_internal_cv">1</Value>
+          <Value name="lambda_no_cv">0.5</Value>
+          <Value name="external_cv">False</Value>
+          <Value name="nfolds_external">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="external_seed_value">1</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Linear_Regression_7</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="462" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="New Model" />
+          <Value name="both">True</Value>
+          <Value name="backward">False</Value>
+          <Value name="AIC">True</Value>
+          <Value name="BIC">False</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Stepwise.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="738" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RYZEN2~1\AppData\Local\Temp\Engine_14612_3a0536c9c5724e6fb18fb26d067a9735_\Engine_5672_608bcb3976d2444a89ef9c775d3fffbe_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Right Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Left Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Reports" />
+      <Destination ToolID="1" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Reports" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>prapra</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

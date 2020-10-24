@@ -3,12 +3,12 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="114" y="150" />
+        <Position x="54" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\titanic.csv</File>
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\titanic.csv</File>
           <FormatSpecificOptions>
             <HeaderRow>True</HeaderRow>
             <IgnoreErrors>False</IgnoreErrors>
@@ -32,14 +32,14 @@
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Survived" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\titanic.csv" type="V_String" />
-            <Field name="Pclass" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\titanic.csv" type="V_String" />
-            <Field name="Name" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\titanic.csv" type="V_String" />
-            <Field name="Sex" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\titanic.csv" type="V_String" />
-            <Field name="Age" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\titanic.csv" type="V_String" />
-            <Field name="Siblings/Spouses Aboard" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\titanic.csv" type="V_String" />
-            <Field name="Parents/Children Aboard" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\titanic.csv" type="V_String" />
-            <Field name="Fare" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\titanic.csv" type="V_String" />
+            <Field name="Survived" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\titanic.csv" type="V_String" />
+            <Field name="Pclass" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\titanic.csv" type="V_String" />
+            <Field name="Name" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\titanic.csv" type="V_String" />
+            <Field name="Sex" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\titanic.csv" type="V_String" />
+            <Field name="Age" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\titanic.csv" type="V_String" />
+            <Field name="Siblings/Spouses Aboard" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\titanic.csv" type="V_String" />
+            <Field name="Parents/Children Aboard" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\titanic.csv" type="V_String" />
+            <Field name="Fare" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\titanic.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -47,11 +47,11 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="558" y="282" />
+        <Position x="498" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\RYZEN2~1\AppData\Local\Temp\Engine_13984_3db3ebda7f5d4d7cbe0ad46e08a81589_\Engine_3676_89665ec0d9314814bfc01d6c019aa70d_.yxdb</TempFile>
+          <TempFile>C:\Users\RYZEN2~1\AppData\Local\Temp\Engine_1640_ee30e2bb427d4eec8970b6a0da0742b8_\Engine_11132_38fd6179b0ed4469880b9d9ae7ba710c_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -75,7 +75,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-        <Position x="234" y="150" />
+        <Position x="174" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -98,14 +98,14 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Survived" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\titanic.csv" type="Byte" />
-            <Field name="Pclass" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\titanic.csv" type="Byte" />
-            <Field name="Name" size="81" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\titanic.csv" type="V_String" />
-            <Field name="Sex" size="6" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\titanic.csv" type="String" />
-            <Field name="Age" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\titanic.csv" type="Double" />
-            <Field name="Siblings/Spouses Aboard" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\titanic.csv" type="Byte" />
-            <Field name="Parents/Children Aboard" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\titanic.csv" type="Byte" />
-            <Field name="Fare" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analitics\titanic.csv" type="Double" />
+            <Field name="Survived" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\titanic.csv" type="Byte" />
+            <Field name="Pclass" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\titanic.csv" type="Byte" />
+            <Field name="Name" size="81" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\titanic.csv" type="V_String" />
+            <Field name="Sex" size="6" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\titanic.csv" type="String" />
+            <Field name="Age" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\titanic.csv" type="Double" />
+            <Field name="Siblings/Spouses Aboard" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\titanic.csv" type="Byte" />
+            <Field name="Parents/Children Aboard" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\titanic.csv" type="Byte" />
+            <Field name="Fare" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\titanic.csv" type="Double" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -113,7 +113,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="342" y="150" />
+        <Position x="282" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -135,7 +135,7 @@ ENDIF
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="450" y="150" />
+        <Position x="390" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -159,7 +159,7 @@ ENDIF
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="Logistic_Regression">
-        <Position x="558" y="138" />
+        <Position x="498" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -202,11 +202,11 @@ ENDIF
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="714" y="150" />
+        <Position x="654" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\RYZEN2~1\AppData\Local\Temp\Engine_13984_3db3ebda7f5d4d7cbe0ad46e08a81589_\Engine_3676_b56327716e3f418fb08ac6c58ff310b2_.yxdb</TempFile>
+          <TempFile>C:\Users\RYZEN2~1\AppData\Local\Temp\Engine_1640_ee30e2bb427d4eec8970b6a0da0742b8_\Engine_11132_4b9734a3308e4100a931919e7a4b8cc1_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -230,7 +230,7 @@ ENDIF
     </Node>
     <Node ToolID="8">
       <GuiSettings>
-        <Position x="654" y="66" />
+        <Position x="594" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -246,19 +246,16 @@ ENDIF
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Stepwise.yxmc" />
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="750" y="78" />
+        <Position x="690" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\RYZEN2~1\AppData\Local\Temp\Engine_13984_3db3ebda7f5d4d7cbe0ad46e08a81589_\Engine_3676_f1d8befb938e427baaf2d03c4cc540ba_.yxdb</TempFile>
+          <TempFile>C:\Users\RYZEN2~1\AppData\Local\Temp\Engine_1640_ee30e2bb427d4eec8970b6a0da0742b8_\Engine_11132_6afed61bcc9d4293837c4322f2c1c54e_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>

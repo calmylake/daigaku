@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="150" y="126" />
+        <Position x="54" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -27,9 +27,6 @@
           <DefaultAnnotationText>base_emprestimo.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Loan_ID" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\segundo trabalho 24 10\base_emprestimo.csv" type="V_String" />
@@ -52,17 +49,17 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="822" y="126" />
+        <Position x="810" y="258" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\RYZEN2~1\AppData\Local\Temp\Engine_10268_0f66292da43c47c2bc548ecbee357d2a_\Engine_11132_461bedd8da28478ca1012c52eae70786_.yxdb</TempFile>
+          <TempFile>C:\Users\RYZEN2~1\AppData\Local\Temp\Engine_3372_9710695a7a734e7d8ba18f20e14777d1_\Engine_14268_6e97fde76878401aaaca1abe3b0f8285_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
             <View1>
-              <DefaultTab>Profile</DefaultTab>
+              <DefaultTab>Report</DefaultTab>
               <Hints>
                 <Table />
               </Hints>
@@ -80,7 +77,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-        <Position x="342" y="126" />
+        <Position x="210" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -128,11 +125,11 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="282" y="210" />
+        <Position x="126" y="258" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\RYZEN2~1\AppData\Local\Temp\Engine_10268_0f66292da43c47c2bc548ecbee357d2a_\Engine_11132_77a9b8537f6d49269143a44d6b343454_.yxdb</TempFile>
+          <TempFile>C:\Users\RYZEN2~1\AppData\Local\Temp\Engine_3372_9710695a7a734e7d8ba18f20e14777d1_\Engine_14268_a251fa9a7818412ca3fa3d7645b9486f_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -156,7 +153,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="438" y="126" />
+        <Position x="294" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -184,7 +181,7 @@ Married_v2 = IF [Married] =...</DefaultAnnotationText>
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="534" y="126" />
+        <Position x="378" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -199,6 +196,12 @@ Married_v2 = IF [Married] =...</DefaultAnnotationText>
             <SelectField field="Self_Employed" selected="False" />
             <SelectField field="Property_Area" selected="False" />
             <SelectField field="Loan_Status" selected="False" />
+            <SelectField field="Gender_v2" selected="True" type="Bool" size="1" />
+            <SelectField field="Married_v2" selected="True" type="Bool" size="1" />
+            <SelectField field="Dependents_v2" selected="True" type="Int16" size="2" />
+            <SelectField field="Education_v2" selected="True" type="Bool" size="1" />
+            <SelectField field="Self_Employed_v2" selected="True" type="Bool" size="1" />
+            <SelectField field="Property_Area_v2" selected="True" type="Int16" size="2" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
@@ -210,50 +213,9 @@ Married_v2 = IF [Married] =...</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
-    <Node ToolID="7">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-        <Position x="630" y="126" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Fields>
-            <Field field="Gender_v2" selected="True" />
-            <Field field="Married_v2" selected="True" />
-            <Field field="Dependents_v2" selected="True" />
-            <Field field="Education_v2" selected="True" />
-            <Field field="Self_Employed_v2" selected="True" />
-            <Field field="Property_Area_v2" selected="True" />
-            <Field field="Loan_Status_v2" selected="True" />
-            <Field field="*Unknown" selected="True" />
-          </Fields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="ApplicantIncome" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\segundo trabalho 24 10\base_emprestimo.csv" type="Int32" />
-            <Field name="CoapplicantIncome" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\segundo trabalho 24 10\base_emprestimo.csv" type="Double" />
-            <Field name="LoanAmount" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\segundo trabalho 24 10\base_emprestimo.csv" type="Int16" />
-            <Field name="Loan_Amount_Term" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\segundo trabalho 24 10\base_emprestimo.csv" type="Int16" />
-            <Field name="Credit_History" source="File: C:\Users\ryzen2700x\Desktop\coisas úteis\estudos\ESPM\2020_2\predictive analytics\segundo trabalho 24 10\base_emprestimo.csv" type="Byte" />
-            <Field name="Gender_v2" source="Formula: IF [Gender] = 'male'&#xA;THEN 0&#xA;ELSE 1&#xA;ENDIF" type="Byte" />
-            <Field name="Married_v2" source="Formula: IF [Married] = 'Yes'&#xA;THEN 1&#xA;ELSE 0&#xA;ENDIF" type="Byte" />
-            <Field name="Dependents_v2" source="Formula: IF [Dependents] = '2'&#xA;THEN 2&#xA;ELSEIF [Dependents] = '1'&#xA;THEN 1&#xA;ELSEIF [Dependents] = '0'&#xA;THEN 0&#xA;ELSE 3&#xA;ENDIF&#xA;" type="Byte" />
-            <Field name="Education_v2" source="Formula: IF [Education] = 'Graduate'&#xA;THEN '1'&#xA;ELSE '0'&#xA;ENDIF" type="Byte" />
-            <Field name="Self_Employed_v2" source="Formula: IF [Self_Employed] = 'No'&#xA;THEN 0&#xA;ELSE 1&#xA;ENDIF" type="Byte" />
-            <Field name="Property_Area_v2" source="Formula: IF [Property_Area] = 'Urban'&#xA;THEN 2&#xA;ELSEIF [Property_Area] = 'Semiurban'&#xA;THEN 1&#xA;ELSE 0&#xA;ENDIF" type="Byte" />
-            <Field name="Loan_Status_v2" source="Formula: IF [Loan_Status] = 'Y'&#xA;THEN 1&#xA;ELSE 0&#xA;ENDIF" type="Byte" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
-    </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="Logistic_Regression">
-        <Position x="750" y="186" />
+        <Position x="630" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -263,7 +225,7 @@ Married_v2 = IF [Married] =...</DefaultAnnotationText>
           <Value name="lambda_min">False</Value>
           <Value name="Model Name">loan_status_ii</Value>
           <Value name="Y Var">Loan_Status_v2</Value>
-          <Value name="X Vars">LoanAmount,Loan_Amount_Term,Credit_History</Value>
+          <Value name="X Vars">ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,Gender_v2,Married_v2,Dependents_v2,Education_v2,Self_Employed_v2,Property_Area_v2</Value>
           <Value name="Use Weights">False</Value>
           <Value name="Weight Vec" />
           <Value name="regularization">False</Value>
@@ -294,13 +256,95 @@ Married_v2 = IF [Married] =...</DefaultAnnotationText>
       </Properties>
       <EngineSettings Macro="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" />
     </Node>
-    <Node ToolID="9">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="714" y="102" />
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="462" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\RYZEN2~1\AppData\Local\Temp\Engine_10268_0f66292da43c47c2bc548ecbee357d2a_\Engine_11132_8daa469e5f0341cd99afb609bf5f2e7b_.yxdb</TempFile>
+          <Expression>!IsNull([ApplicantIncome]) AND
+!IsNull([CoapplicantIncome]) AND
+!IsNull([LoanAmount]) AND
+!IsNull([Loan_Amount_Term]) AND
+!IsNull([Credit_History]) AND
+!IsNull([Gender_v2]) AND
+!IsNull([Married_v2]) AND
+!IsNull([Dependents_v2]) AND
+!IsNull([Education_v2]) AND
+!IsNull([Self_Employed_v2]) AND
+!IsNull([Property_Area_v2]) AND
+!IsNull([Loan_Status_v2])</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([ApplicantIncome]) AND
+!IsNull([CoapplicantIncome]) AND
+!IsNull([LoanAmo...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings>
+        <Position x="762" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="New Model">Modelo brabo do time S.H.I.E.L.D</Value>
+          <Value name="both">True</Value>
+          <Value name="backward">False</Value>
+          <Value name="AIC">True</Value>
+          <Value name="BIC">False</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Stepwise.yxmc" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="882" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RYZEN2~1\AppData\Local\Temp\Engine_3372_9710695a7a734e7d8ba18f20e14777d1_\Engine_14268_18598676a4ec416c8fb57a9f9d2398da_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RYZEN2~1\AppData\Local\Temp\Engine_3372_9710695a7a734e7d8ba18f20e14777d1_\Engine_14268_0406e7ab779843dcab02863c920cb276_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -342,19 +386,31 @@ Married_v2 = IF [Married] =...</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="6" Connection="Output" />
-      <Destination ToolID="7" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="7" Connection="Output" />
-      <Destination ToolID="8" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="7" Connection="Output" />
-      <Destination ToolID="9" Connection="Input" />
+      <Destination ToolID="10" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="8" Connection="Reports" />
       <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="15" Connection="Left Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="15" Connection="Right Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Reports" />
+      <Destination ToolID="16" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>

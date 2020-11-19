@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="162" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>avengers.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="URL" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Name/Alias" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Appearances" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Current?" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Probationary Introl" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Full/Reserve Avengers Intro" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Year" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Years since joining" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Honorary" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Death1" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Return1" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Death2" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Return2" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Death3" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Return3" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Death4" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Return4" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Death5" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Return5" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Notes" size="254" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="726" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RYZEN2~1\AppData\Local\Temp\Engine_13532_4f976835a65a4e79bcbe37aad55ba95e_\Engine_2896_c9fa059e1b88499ea7e04c8751f7e3ce_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="URL" selected="False" />
+            <SelectField field="Name/Alias" selected="False" />
+            <SelectField field="Probationary Introl" selected="False" />
+            <SelectField field="Notes" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="342" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Appearances" selected="True" />
+            <Field field="Current?" selected="True" />
+            <Field field="Gender" selected="True" />
+            <Field field="Full/Reserve Avengers Intro" selected="True" />
+            <Field field="Year" selected="True" />
+            <Field field="Years since joining" selected="True" />
+            <Field field="Honorary" selected="True" />
+            <Field field="Death1" selected="True" />
+            <Field field="Return1" selected="True" />
+            <Field field="Death2" selected="True" />
+            <Field field="Return2" selected="True" />
+            <Field field="Death3" selected="True" />
+            <Field field="Return3" selected="True" />
+            <Field field="Death4" selected="True" />
+            <Field field="Return4" selected="True" />
+            <Field field="Death5" selected="True" />
+            <Field field="Return5" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Appearances" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="Int16" />
+            <Field name="Current?" size="3" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="String" />
+            <Field name="Gender" size="6" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="String" />
+            <Field name="Full/Reserve Avengers Intro" size="6" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="String" />
+            <Field name="Year" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="Int16" />
+            <Field name="Years since joining" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="Byte" />
+            <Field name="Honorary" size="12" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="V_String" />
+            <Field name="Death1" size="3" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="String" />
+            <Field name="Return1" size="3" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="String" />
+            <Field name="Death2" size="3" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="String" />
+            <Field name="Return2" size="3" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="String" />
+            <Field name="Death3" size="3" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="String" />
+            <Field name="Return3" size="3" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="String" />
+            <Field name="Death4" size="3" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="String" />
+            <Field name="Return4" size="3" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="String" />
+            <Field name="Death5" size="3" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="String" />
+            <Field name="Return5" size="3" source="File: C:\Users\ryzen2700x\Desktop\coisas uteis\estudos\ESPM\2020_2\predictive analytics\terceiro trabalho 25 11\avengers.csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="438" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if [Death1] == &quot;YES&quot; then 1 else 0 endif" field="Death1_v2" size="2" type="Int16" />
+            <FormulaField expression="if [Death2] == &quot;YES&quot; then 1 else 0 endif" field="Death2_v2" size="2" type="Int16" />
+            <FormulaField expression="if [Death3] == &quot;YES&quot; then 1 else 0 endif" field="Death3_v2" size="2" type="Int16" />
+            <FormulaField expression="if [Death4] == &quot;YES&quot; then 1 else 0 endif" field="Death4_v2" size="2" type="Int16" />
+            <FormulaField expression="if [Death5] == &quot;YES&quot; then 1 else 0 endif" field="Death5_v2" size="2" type="Int16" />
+            <FormulaField expression="if [Return1] == &quot;YES&quot; then 1 else 0 endif" field="Return1_v2" size="2" type="Int16" />
+            <FormulaField expression="if [Return2] == &quot;YES&quot; then 1 else 0 endif" field="Return2_v2" size="2" type="Int16" />
+            <FormulaField expression="if [Return3] == &quot;YES&quot; then 1 else 0 endif" field="Return3_v2" size="2" type="Int16" />
+            <FormulaField expression="if [Return4] == &quot;YES&quot; then 1 else 0 endif" field="Return4_v2" size="2" type="Int16" />
+            <FormulaField expression="if [Return5] == &quot;YES&quot; then 1 else 0 endif" field="Return5_v2" size="2" type="Int16" />
+            <FormulaField expression="IF [Honorary] == &quot;Honorary&quot; THEN 2 ELSE IF [Honorary] == &quot;Full&quot; THEN 3 ELSE IF [Honorary] == &quot;Academy&quot; THEN 1 ELSE 0 ENDIF ENDIF ENDIF" field="Honorary_v2" size="2" type="Int16" />
+            <FormulaField expression="if [Gender] == &quot;MALE&quot; then 1 else 0 endif" field="Gender_v2" size="2" type="Int16" />
+            <FormulaField expression="if [Current?] == &quot;YES&quot; then 1 else 0 endif" field="Current_v2" size="2" type="Int16" />
+            <FormulaField expression="Switch(Left(ToString([Full/Reserve Avengers Intro]),3),&#xA;&#xA;Switch(Right(ToString([Full/Reserve Avengers Intro]), 3),0,&#xA;&quot;Jan&quot;,1,&quot;Feb&quot;,2,&#xA;&quot;Mar&quot;,3,&quot;Apr&quot;,4,&#xA;&quot;May&quot;,5,&quot;Jun&quot;,6,&#xA;&quot;Jul&quot;,7,&quot;Aug&quot;,8,&#xA;&quot;Sep&quot;,9,&quot;Oct&quot;,10,&#xA;&quot;Nov&quot;,11,&quot;Dec&quot;,12),&#xA;&#xA;&quot;Jan&quot;,1,&quot;Feb&quot;,2,&#xA;&quot;Mar&quot;,3,&quot;Apr&quot;,4,&#xA;&quot;May&quot;,5,&quot;Jun&quot;,6,&#xA;&quot;Jul&quot;,7,&quot;Aug&quot;,8,&#xA;&quot;Sep&quot;,9,&quot;Oct&quot;,10,&#xA;&quot;Nov&quot;,11,&quot;Dec&quot;,12)" field="Month" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Death1_v2 = if [Death1] == "YES" then 1 else 0 endif
+Death2_v2 = if [Death2] == ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="534" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Death1_v2]+[Death2_v2]+[Death3_v2]+[Death4_v2]+[Death5_v2]" field="DeathCount" size="2" type="Int16" />
+            <FormulaField expression="[Return1_v2]+[Return2_v2]+[Return3_v2]+[Return4_v2]+[Return5_v2]" field="ReturnCount" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DeathCount = [Death1_v2]+[Death2_v2]+[Death3_v2]+[Death4_v2]+[Death5_v2]
+ReturnC...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="630" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Current?" selected="False" />
+            <SelectField field="Gender" selected="False" />
+            <SelectField field="Full/Reserve Avengers Intro" selected="False" />
+            <SelectField field="Honorary" selected="False" />
+            <SelectField field="Death1" selected="False" />
+            <SelectField field="Return1" selected="False" />
+            <SelectField field="Death2" selected="False" />
+            <SelectField field="Return2" selected="False" />
+            <SelectField field="Death3" selected="False" />
+            <SelectField field="Return3" selected="False" />
+            <SelectField field="Death4" selected="False" />
+            <SelectField field="Return4" selected="False" />
+            <SelectField field="Death5" selected="False" />
+            <SelectField field="Return5" selected="False" />
+            <SelectField field="Death1_v2" selected="False" />
+            <SelectField field="Death2_v2" selected="False" />
+            <SelectField field="Death3_v2" selected="False" />
+            <SelectField field="Death4_v2" selected="False" />
+            <SelectField field="Death5_v2" selected="False" />
+            <SelectField field="Return1_v2" selected="False" />
+            <SelectField field="Return2_v2" selected="False" />
+            <SelectField field="Return3_v2" selected="False" />
+            <SelectField field="Return4_v2" selected="False" />
+            <SelectField field="Return5_v2" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Trabalho Final</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
